@@ -10,19 +10,24 @@ axum = "0.7.7"
 axum-extra = "0.9.4"
 chrono = "0.4.38"
 jieba-rs = "0.7.0"
+jsonwebtoken = "9.3.0"
 jwt-simple = "0.12.10"
 lazy-regex = "3.3.0"
 mongodb = "3.1.0"
 sea-orm = "1.1.0"
 serde = { version = "1.0.210", features = ["derive"] }
 serde_json = "1.0.132"
+serde_toml = "0.0.1"
 serde_with = "3.11.0"
 tantivy = "0.22.0"
 tantivy-jieba = "0.11.0"
 tempfile = "3.13.0"
 thiserror = "1.0.64"
 tokio = { version = "1.40.0", features = ["full"] }
+toml = "0.8.19"
 tower-http = { version = "0.6.1", features = ["fs"] }
 tracing = "0.1.40"
+tracing-appender = "0.2.3"
 tracing-subscriber = { version = "0.3.18", features = ["env-filter"] }
 uuid = { version = "1.11.0", features = ["fast-rng"] }
+validator = { version = "0.18.1", features = ["derive"] }
